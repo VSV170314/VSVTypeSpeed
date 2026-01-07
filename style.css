@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+#text-display {
+    font-size: 24px;
+    margin: 0 auto 20px auto; /* centers and adds bottom margin */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    min-height: 80px;
+    max-width: 800px;  /* limits width for readability */
+    width: 90%;        /* responsive */
+    box-sizing: border-box;
+}
+
+#input-box {
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    width: 90%;        /* same as text display for perfect alignment */
+    max-width: 800px;  /* match text display width */
+    margin: 0 auto;    /* center horizontally */
+    box-sizing: border-box;
+}
+
+#stats {
+    display: grid;
+    grid-template-columns: repeat(3, 220px); /* 3 columns */
+    justify-content: center;
+    gap: 10px 20px; /* vertical and horizontal spacing */
+    margin-top: 20px;
+}
+
+#stats .stat {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+#restart {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#restart:hover {
+    background-color: #45a049;
+}
